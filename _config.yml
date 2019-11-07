@@ -59,15 +59,24 @@ kramdown:
 # Disqus（https://disqus.com/）
 # disqus_username: qiubaiying
 
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# Gitalk no
+
+# utteranc yes
+<script 
+// 加载的客户端脚本
+    src="https://utteranc.es/client.js"
+// repo 就是访问的仓库，格式 用户名/仓库名
+// 个人就是 repo="wsafight/personBlog"
+        repo="villageruk.github.io"
+
+// 选定的当前blog 与 issue 之间的关系
+// 个人使用的是不会自动创建的 issue-number，每个issue都有自己的number。该选项是使用特定的issue
+        issue-term="pathname"
+// 主题为  github-light 还有其他主题可以选择        
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
 # 统计
